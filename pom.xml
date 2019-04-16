@@ -12,6 +12,7 @@
         <module>rambler-logger</module>
         <module>rambler-core</module>
         <module>rambler-business</module>
+        <module>rambler-generate</module>
     </modules>
     <properties>
         <fastjson.version>1.2.54</fastjson.version>
