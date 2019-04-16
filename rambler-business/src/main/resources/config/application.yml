@@ -1,0 +1,17 @@
+#数据源配置
+spring:
+  application:
+    name: beetlsql-test
+  datasource:
+    name: blog
+    url: jdbc:mysql://127.0.0.1:3306/moke?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+beetlsql:
+  basePackage: com.platform.web.dao
+  dbStyle: org.beetl.sql.core.db.MySqlStyle
+  sqlRoot: /sql
+  debug: 1
